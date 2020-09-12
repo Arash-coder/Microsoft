@@ -1,0 +1,185 @@
+div.container{
+    max-width: 1600px;
+}
+/* nav */
+nav.navbar{
+    max-width: 1600px;
+}
+nav img{
+    width: 120px;
+}
+nav ul i{
+    cursor: pointer;
+    padding: 0.5rem 0.5rem;
+}
+/* End nav */
+/* carousel */
+.header-carousel{
+    text-align: center;
+    background-color: #0067B8;
+    height: 5%;
+    padding: 0.5rem;
+}
+.header-carousel:hover{
+    border: 0.01rem dashed black;
+    padding: 0.5rem;
+}
+.header-carousel a{
+    color: white;
+}
+.header-carousel a:hover{
+    text-decoration: underline;
+    color: white;    
+}
+.first-slide{
+    position: relative;
+}
+.title{
+    position: absolute;
+    bottom:600% ;
+    color: black;
+}
+.inner-title{
+    position: absolute;
+    bottom: 500%;
+    color: black;
+}
+.link-carousel{
+    position: absolute;
+    bottom: 400%;
+    right: 84% ;
+}
+/* End carousel */
+/* Diffrent items */
+.each-item{
+    text-align: center;
+}
+.diffrent-items{
+    padding: 4rem 0 0;
+}
+.each-item a{
+    color: black;
+}
+.each-item a:hover{
+    color: black;
+}
+.second-row{
+    padding:4rem 1rem 4rem;
+}
+.second-row div img{
+    width: 100%;
+    background-size: cover;
+
+}
+/* End Diffrent items */
+/* about game */
+.game-pic{
+    width: 100%;
+}
+.title-game{
+    position: absolute;
+    bottom: 50%;
+    left: 6%;
+    
+}
+/* End about game */
+/* For work */
+.work-title{
+    padding: 4rem 0 2rem;
+}
+div.work-items div img{
+    width: 100%;
+}
+/* End For work */
+/* last carousel */
+.last-carousel{
+    padding: 4rem 0 2rem;
+}
+.under-carousel{
+    padding: 2rem 0 2rem;
+}
+.facebook{
+    font-size: 24px; 
+    color: rgb(1, 106, 155);
+}
+.twitter{
+    font-size: 24px;
+    color: rgb(0, 162, 255);
+}
+.linkein{
+    font-size: 24px;
+    color: rgb(0, 110, 255);
+}
+.under-carousel-p{
+    font-weight: 400;
+}
+/* End last carousel */
+/* footer */
+footer{
+    background-color: #f2f2f2;
+    padding: 2rem 1rem 1rem;
+
+}
+div.footer-item{
+    padding: 0;
+}
+footer ul li{
+    padding-bottom: 0.5rem;
+    color: 16161;
+    font-size: 11px;
+    line-height: 18px;
+}
+.list-footer{
+    list-style: none;
+}
+.title-footer{
+    font-weight: 600;
+    font-size: 15px;
+    color: #616161;
+}
+.list-footer li a{
+    color: black;
+}
+.last-line{
+    list-style: none;
+}
+.last-line a{
+    color: #616161;
+    padding: 1rem 1rem 0;
+}
+/* End footer */
+@media (max-width : 780px){
+    .each-item a{
+        display: flex;
+        padding: 1rem 1rem 0rem;
+    }
+    .each-item img{
+        height: 20px;
+        width: 20px;  
+    }
+    .each-item a p{
+        padding: 0rem 1rem 1rem;
+        font-weight: 700;
+    }
+    
+} 
+@media (max-width: 900px){
+    .title-game{
+        position: initial;
+        text-align: center;
+        background-color: #f0efef;
+    }
+}
+@media (max-width: 822px){
+    .title-game{
+        
+    }
+}
+@media (max-width: 580px){
+    button.ali{
+        
+    }
+    nav ul{
+        direction: ltr;
+    }
+}
